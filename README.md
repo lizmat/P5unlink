@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/lizmat/P5unlink/actions/workflows/test.yml/badge.svg)](https://github.com/lizmat/P5unlink/actions)
+
 NAME
 ====
 
