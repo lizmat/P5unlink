@@ -1,0 +1,22 @@
+use v6.*;
+use Test;
+use P5unlink;
+
+plan 5;
+
+ok defined(::('&unlink')),            'is &unlink imported?';
+
+"foo".IO.spurt;
+ok "foo".IO.e, 'does "foo" exist';
+unlink "foo";
+nok "foo".IO.e, 'does "foo" no longer exist';
+
+with "bar" {
+    use isms 'Perl5';
+    .IO.spurt;
+    ok .IO.e, 'does "bar" exist';
+    unlink;
+    nok .IO.e, 'does "bar" no longer exist';
+}
+
+# vim: expandtab shiftwidth=4

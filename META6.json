@@ -1,0 +1,27 @@
+{
+  "auth": "zef:lizmat",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Raku port of Perl's unlink() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5unlink",
+  "perl": "6.d",
+  "provides": {
+    "P5unlink": "lib/P5unlink.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/lizmat/P5unlink.git",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
